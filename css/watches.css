@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.products{
+    clear: left;
+}
+.watch-group-tablet{
+    display: flex;
+    flex-direction: column;
+}
+.watch-group-desktop{
+    display: flex;
+    flex-direction: column;
+}
+.watch{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f2f2f2;
+    margin: 2px;
+    padding: 20px;
+}
+.watch img{
+    max-width: 60%;
+    transition: 0.4s;
+}
+
+.watch img:hover{
+    transform: scale(1.06);
+}
+
+
+}

@@ -1,0 +1,123 @@
+/*TABLET*/
+@media screen and (max-width: 768px){
+	/* Styling for the header*/
+	header{
+		clear: left;
+		width: 100%;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+	/* Styling for navigation bar*/
+	nav{
+		width: 100%;
+		clear: left;
+	}
+	ul{
+		width: 100%;
+		margin-top: 2%;
+		margin-left: 0%;
+	}
+	ul li{
+		display: flex;
+		width: 20%;
+	}
+	ul li a{
+		width: 100%;
+		font-size: 80%;
+	}
+
+	#pic img{
+		height: 20%;
+	}
+	#banner :not(img){
+		border-color: white;
+		font-size: 200%;
+		height: 30%;
+		top: 15%;
+	}
+	/*Products*/
+	.home-cards {
+    	grid-template-columns: repeat(2, 1fr);
+  	}
+
+	/*Register Page */
+	.form-container{
+		align-items: center;
+		height: 55%;
+	}
+	
+	.f{
+	padding: 2%;
+	font-size: 50%;
+	}
+	.f1, .f2, .f2_2{
+		font-size: 70%;
+	}
+	/*Login Page */
+	.form-container{
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		width: 100%;
+		height: 80%;
+	}
+	.form-container2{
+		padding: 5%;
+		font-size: 0.5em;
+	}
+
+	/*Register Page */
+	.form-container3{
+		padding: 5%;
+		font-size: 0.5em;
+	}
+
+	/*Styling for header of Register form*/
+	.form-container3 h3{
+		font-size: 1.5em;
+	}
+	/*Styling for header of login form*/
+	.form-container2 h3{
+		font-size: 1.5em;
+	}
+	.mb-3{
+		padding: 5%;
+		font-size: 2em;
+	}
+	.mb-4{
+		padding: 2%;
+		font-size: 0.5em;
+	}
+	/*Styling for the submit button*/
+	.b_submit{
+		font-size: 0.5em;
+	}
+	/*About Page*/
+	.part{
+		width: 40%;
+		font-size: 60%;
+	}
+	/*Contact Us*/
+	.containter_CT{
+		padding: 3%;
+	}
+	.card {
+		padding: 3%;
+    	flex-direction: column;
+  	}
+  
+  	.left {
+    	width: 60vw;
+    	height: 40vh;
+  	}	
+  	.right{
+  	width:100%;
+  	flex-direction: column;
+  	}
+  	.T_Addresses{
+  		font-size: 10%;
+  	}
+}
+
+

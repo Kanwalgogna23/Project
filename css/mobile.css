@@ -1,0 +1,206 @@
+@media screen and (max-width: 426px){
+	*{
+	box-sizing: border-box;
+	padding-left: 1.5%;
+	padding-right: 1.5%;
+	}
+	/*Removing float effect from the header in mobile view*/
+	header{
+		clear: left;
+	}
+	#logo{
+		width: 100%;
+	}
+	#logo img{
+		width: 100%;
+		height: 100%;
+	}
+	/* reducing the size of the image*/
+	#pic{
+	}
+	/* Styling for the mobile navgation bar*/
+	#m_nav{
+		display: block;	
+		width: 100%;
+		height: 10%;
+		padding: 2%;
+		border-top: groove;
+		background-color: white;
+		background-repeat: repeat;
+		background-attachment: scroll;
+    	background-position: 0% 0%;
+	    position: fixed;
+	    bottom: 0pt;
+	    left: 0pt;
+	}
+	/* Styling for the links of mobile's navigation bar*/
+	#mobile-menu a{
+		padding: 1%;
+		margin: 0px;
+		width: 25%;
+		display: flex;	
+		justify-content: center;
+		float: left;
+		}
+	/* Styling for the images of mobile's navigation bar*/
+	#mobile-menu img{
+		height: 50%;
+		width: 50%;
+		}
+	/* removing float effect from the logo*/
+	#logo{
+		clear: left;
+		width: 35%;
+		height: 30%;
+		padding: 1%;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+	#logo img{
+		max-width: 100%;
+		max-height: 100%;
+	}
+	#pic{
+		margin: 0;
+	}
+	#pic:hover img{
+		webkit-filter: blur(0px); 
+    	filter: brightness(100%);
+	}
+	/* Making hover text invisible*/
+	#banner :not(img){
+		top: 20%;
+		font-size: 1.9em;
+	}
+	/*Products*/
+	.home-cards {
+		padding: 10%;
+    	grid-template-columns: 1fr;
+  	}
+	
+  	
+	/* Making desktop navigation bar invisible*/
+	ul{
+		display: none;
+	}
+
+	.banner3{
+		font-size: 1.9em;
+	}
+
+	.product_home{
+		
+	}
+
+	.product_home img{
+	height: 40%;
+	}
+	.product_home p{
+		display: none;
+	}
+	#f{
+	padding: 2%;
+	margin-bottom: 20%;
+	}
+
+	/* Making footer invisible in mobile view*/
+	.f, .f1, .f2, .f_map, .fIcons{
+		display: none;
+	}
+
+	/*Login Page and Register Page */
+	/*Styling for container of login form*/
+	.form-container_login{
+		background: none;
+		margin-top: 10%;
+		font-size: 2em;
+	}
+	/*Styling for container of register form*/
+	.form-container_register{
+			background: none;
+			margin-top: 10%;
+			font-size: 2em;
+	}
+	.form-container2{
+		padding: 8%;
+		border-radius: 5%;
+		width: 80%;
+	}	
+	.form-container3{
+		padding: 8%;
+		border-radius: 5%;
+		width: 80%;
+	}
+	/*Styling for fields of login form*/
+	.mb-2{
+		margin-top: 5%;
+		margin-bottom: 5%;
+		width: 100%;
+	}
+	.mb-3{
+		padding: 2%;
+		width: 100%;
+		height: 100%;
+		font-size: 100%;
+		border-radius: 2%;
+	}
+	/*Styling for sign in button*/
+	.b_submit{
+		width: 50%;
+		font-size: 0.5em;
+	}
+	/*Styling for the text below button*/
+	.mb-5{
+		padding: 2%;
+		font-size: 0.5em;	
+	}
+	.b_submit{
+		margin-bottom: 1%;
+	}
+	/*Making checked box invisible*/
+	.mb-4{
+		display: none;
+	}
+	/*Styling for containr background*/
+	.form-container3{
+		background: transparent;
+	}
+
+	/*About Page*/
+	.about_container{
+		display: flex;
+		justify-content: center;
+		background: none;
+	}
+	.part{
+		width: 100%;
+		font-size: 1em;
+		margin-bottom: 20%;
+		color: black;
+		backdrop-filter: blur(0px);
+	}
+	/*Watches Page*/
+	.prod-grid{
+		border: none;
+	}
+	/*Contact Us*/
+	
+  .left {
+    	height: 50vh;
+  	}
+	.left img{
+		height: 50%;
+		width: 50%;
+	}
+  .contact {
+    	flex-direction: column;
+  	}
+  	/*Contact US*/
+  	.container_table{
+  		display: none;
+  	}
+  	.form{
+	width: 10em;
+	}
+}
